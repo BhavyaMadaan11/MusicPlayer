@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="music_Styling.css">
+</head>
+<body>
+  <h1>Project- Music Player</h1>
+  <div class="music">
+    <div class="player">
+      <!-- Logo -->
+      <div class="navbar">
+        <p class="logo"><i class="fa-solid fa-music"></i><span>Music</span></p>
+      </div>
+      <!-- options- Expand,now playing,more options -->
+      <div class="nav-2">
+        <i class="fa-solid fa-chevron-down"></i>
+        <span>Now Playing</span>
+        <i class="fa-solid fa-ellipsis"></i>
+      </div>
+      <!-- cover image area -->
+      <div class="image"></div>
+      <!-- current song details (singer name and song name) -->
+      <div class="current-song-details">
+        <p id="song">Song name</p>
+        <p id="singer">Singer</p>
+      </div>
+      <!-- song bar and timer -->
+      <div class="song-status">
+        <div id="song-bar">
+          <audio id="audio"></audio>
+        </div>
+        <div class="timer">
+          <span id="current-time">0.00</span>
+          <span id="duration">0.00</span>
+        </div>
+      </div>
+      <!-- volume bar -->
+      <div class="volume">Yaha Volume bar ayga</div>
+      <!-- options-previous,next,play/pause button etc -->
+      <div class="main-options">
+          <i class="fa-solid fa-repeat"></i>
+          <i class="fa-solid fa-backward"></i>
+          <i class="fa-solid fa-circle-play"></i>
+          <i class="fa-solid fa-forward"></i>
+          <i class="fa-solid fa-list"></i>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://kit.fontawesome.com/0b9f0bd287.js" crossorigin="anonymous"></script>
+</body>
+</html>

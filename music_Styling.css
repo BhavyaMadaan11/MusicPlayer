@@ -1,0 +1,123 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color:rgb(57, 62, 102);
+  font-size: 50px;
+}
+
+
+
+.music{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player{
+  background-color: white;
+  height: 500px;
+  width: 25%;
+  border: 2px solid black;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 10px rgb(5, 4, 4);
+}
+
+.navbar{
+  height: 40px;
+  width: 100%;
+}
+
+.logo{
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 8px;
+}
+
+.logo span{
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.nav-2{
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 550;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.image{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.current-song-details p{
+  padding: 15px;
+}
+
+.current-song-details p{
+  display: block;
+  text-align: center;
+  padding: 2px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#song{
+  font-weight: bold;
+}
+
+.song-status{
+  margin-top: 9px;
+}
+
+#song-bar{
+  height: 7px;
+  width: 90%;
+  background-color: rgb(209, 207, 207);
+  margin: auto;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.volume{
+  height: 45px;
+  width: 90%;
+  border: 1px dotted black;
+  margin: auto;
+}
+
+.main-options{
+  padding: 20px;
+  padding-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-options i{
+  font-size: 25px;
+}
+
+
